@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Colorization</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Colorization</h1>
+        <form id="uploadForm">
+            <input type="file" id="fileInput" name="file" accept="image/*" required>
+            <button type="submit">Upload and Colorize</button>
+        </form>
+        <div id="output">
+            <h2>Results</h2>
+            <div id="images"></div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
